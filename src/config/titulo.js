@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Fundamentos en tecnología aplicada en sistemas electromecánicos e industriales'
