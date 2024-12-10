@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Introducción la electrotecnia
       
 </template>
 
