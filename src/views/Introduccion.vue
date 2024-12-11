@@ -30,10 +30,10 @@
           img(src="@/assets/curso/intro3.svg")
     
     .row.mt-4
-      .col-md-auto.d-none.d-md-block(data-aos="fade-right")
+      .col-md-auto.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
         figure
           img(src="@/assets/curso/intro4.svg")
-      .col-md(data-aos="fade-left")
+      .col-md(data-aos="fade-left" style="place-self:center;")
         p.mb-0 La estructura propuesta, brinda un enfoque integral de la electrónica, ofreciendo herramientas teóricas que faciliten análisis y aplicación de conceptos técnico en el sector agrícola respondiendo a condiciones y necesidades particulares, con esta preparación, los estudiantes estarán mejor equipados para enfrentar los desafíos de un mundo agrícola cada vez más mecanizado y tecnificado, donde la electrónica juega un papel determinante en la mejora de la productividad, la calidad de los productos y la sostenibilidad de los procesos.
     
     figure.mt-4(data-aos="zoom-in-up" data-aos-duration="500")

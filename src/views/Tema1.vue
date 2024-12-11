@@ -148,7 +148,7 @@
               span #[strong Electrónica automotriz:] los automóviles utilizan baterías de 12V DC para alimentar sistemas de iluminación, arranque, entretenimiento y otros componentes electrónicos en el vehículo.
     
     .row.mt-5
-      .col-lg(data-aos="fade-right")
+      .col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span  Ejemplos de circuitos electrotecnia DC
@@ -168,7 +168,7 @@
               tr(style="background-color:#F6F6F6;")
                 td.text-center.fw-bold(style="border-right:1px #AFAFAF solid;") Circuito mixto
                 td(style="border:0;") Conecta resistores en una combinación de serie y paralelo para experimentar con circuitos más complejos y aplicar la Ley de #[em Kirchhoff].
-      .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/10.png")
 
@@ -323,10 +323,10 @@
           img(src="@/assets/curso/tema1/15.png")
     
     .row.mt-5
-      .col-lg-auto.d-none.d-lg-block(data-aos="fade-right")
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/16.png")
-      .col-lg(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2.
           span Ejemplos de circuitos electrotecnia AC.
