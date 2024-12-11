@@ -40,7 +40,7 @@
     .row.mt-4
       .col-lg(data-aos="fade-right")
         p Las herramientas son un pilar fundamental en cualquier operación de montaje y ajuste, ya que garantizan la correcta ejecución de tareas técnicas con precisión y seguridad. La clasificación de herramientas se basa en su función, mecanismo y nivel de sofisticación, lo que permite seleccionar la más adecuada para cada tipo de trabajo. Desde las herramientas manuales básicas hasta las electrónicas avanzadas, cada categoría responde a necesidades específicas de montaje, ajuste y mantenimiento en entornos industriales y agrícolas.
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Manuales")
             p Como llaves, destornilladores y alicates. Estas herramientas son básicas pero esenciales para operaciones que requieren un control directo.
           .row.col-xl-11.m-auto(titulo="Eléctricas")
@@ -192,7 +192,7 @@
 
     .cont_1_1.mt-4.pt-4.pb-4.pb-xl-5.pt-xl-5
       .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4
-        SlyderA(tipo="b")
+        CarouselRED(tipo="b")
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Normas de seguridad
@@ -229,13 +229,13 @@
 </template>
 
 <script>
-import AcordionA from '../bootstrap/AcordionA.vue'
-import SlyderA from '../bootstrap/SlyderA.vue'
+import AcordionRED from '../bootstrap/AcordionRED.vue'
+import CarouselRED from '../bootstrap/CarouselRED.vue'
 export default {
   name: 'Tema5',
   components: {
-    SlyderA,
-    AcordionA,
+    CarouselRED,
+    AcordionRED,
   },
   data: () => ({
     // variables de vue

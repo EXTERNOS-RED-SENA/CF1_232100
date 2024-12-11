@@ -26,7 +26,7 @@
 
     .row.mt-4
       .col-lg(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Corriente continua (DC)")
             p Flujo de electrones que se desplaza en una sola dirección a través de un circuito. En la corriente continua el flujo es constante y unidireccional, por tanto, el voltaje (potencial eléctrico) también es constante y no cambia de polaridad.
           .row.col-xl-11.m-auto(titulo="Voltaje (V)")
@@ -53,7 +53,7 @@
 
     .cont_1_1.mt-5.pt-4.pb-4.pb-xl-5.pt-xl-5
       .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4
-        SlyderA(tipo="b")
+        CarouselRED(tipo="b")
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               p.fw-bold Ley de Ohm
@@ -93,7 +93,7 @@
         figure
           img(src="@/assets/curso/tema1/7.png")
       .col-lg(data-aos="fade-left")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Desarrollo de sistemas de alimentación de bajo voltaje")
             p La corriente continua es esencial para dispositivos electrónicos como computadoras, teléfonos móviles y sistemas de comunicación, que operan a bajo voltaje.
           .row.col-xl-11.m-auto(titulo="Avances en almacenamiento de energía")
@@ -282,7 +282,7 @@
           figure
             img(src="@/assets/curso/tema1/14.png")
         .col-lg(data-aos="fade-left")
-          AcordionA(tipo="a" clase-tarjeta="tarjeta")
+          AcordionRED(tipo="a" clase-tarjeta="tarjeta")
             .row.col-xl-11.m-auto(titulo="Transmisión de energía a largas distancias")
               p La capacidad de cambiar la magnitud del voltaje mediante transformadores facilita la transmisión eficiente de energía en redes eléctricas de larga distancia.
             .row.col-xl-11.m-auto(titulo="Estandarización de sistemas de energía")
@@ -358,14 +358,14 @@
 </template>
 
 <script>
-import SlyderA from '../bootstrap/SlyderA.vue'
-import AcordionA from '../bootstrap/AcordionA.vue'
+import CarouselRED from '../bootstrap/CarouselRED.vue'
+import AcordionRED from '../bootstrap/AcordionRED.vue'
 import TabsC from '../bootstrap/TabsC.vue'
 export default {
   name: 'Tema1',
   components: {
-    SlyderA,
-    AcordionA,
+    CarouselRED,
+    AcordionRED,
     TabsC,
   },
   data: () => ({

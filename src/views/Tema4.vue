@@ -86,7 +86,7 @@
 
     .cont_1_1.mt-4.pt-4.pb-4.pb-xl-5.pt-xl-5
       .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4
-        SlyderA(tipo="b")
+        CarouselRED(tipo="b")
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h5 Instrumentos de medición comunes
@@ -182,7 +182,7 @@
 
     .row.mt-4
       .col-lg(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Inspección visual")
             p Se revisan aspectos como desgaste, fisuras, corrosión o cualquier desalineación evidente. Estas inspecciones ayudan a identificar problemas a tiempo, evitando reparaciones mayores.
           .row.col-xl-11.m-auto(titulo="Mediciones de precisión")
@@ -209,7 +209,7 @@
     
     .row.mt-4
       .col-lg(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Torneado")
             p Es uno de los procesos más utilizados para dar forma a piezas cilíndricas. En el torno, la pieza gira y la herramienta de corte elimina material para conseguir el diámetro y acabado necesarios.
           .row.col-xl-11.m-auto(titulo="Fresado")
@@ -271,13 +271,13 @@
 </template>
 
 <script>
-import AcordionA from '../bootstrap/AcordionA.vue'
-import SlyderA from '../bootstrap/SlyderA.vue'
+import AcordionRED from '../bootstrap/AcordionRED.vue'
+import CarouselRED from '../bootstrap/CarouselRED.vue'
 export default {
   name: 'Tema4',
   components: {
-    SlyderA,
-    AcordionA,
+    CarouselRED,
+    AcordionRED,
   },
   data: () => ({
     // variables de vue

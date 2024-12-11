@@ -115,7 +115,7 @@
         figure
           img(src="@/assets/curso/tema2/6.svg")
       .col-lg(data-aos="fade-left")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Compuerta <em>AND</em>")
             p Produce una salida de 1 solo si ambas entradas son 1.
             p.mb-0 Tabla de verdad:
@@ -340,11 +340,11 @@
 </template>
 
 <script>
-import AcordionA from '../bootstrap/AcordionA.vue'
+import AcordionRED from '../bootstrap/AcordionRED.vue'
 export default {
   name: 'Tema2',
   components: {
-    AcordionA,
+    AcordionRED,
   },
   data: () => ({
     // variables de vue

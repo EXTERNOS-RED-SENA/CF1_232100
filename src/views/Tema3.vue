@@ -69,7 +69,7 @@
           figure
             img(src="@/assets/curso/tema3/5.png")
         .col-lg(data-aos="fade-left")
-          AcordionA(tipo="a" clase-tarjeta="tarjeta")
+          AcordionRED(tipo="a" clase-tarjeta="tarjeta")
             .row.col-xl-11.m-auto(titulo="Comunicación Eficiente")
               p Los planos y dibujos técnicos son un medio de comunicación precisa entre diseñadores, ingenieros, operarios, y técnicos. Permiten que todos comprendan las especificaciones de un proyecto de manera uniforme, asegurando que el producto final cumpla con los requisitos deseados.
             .row.col-xl-11.m-auto(titulo="Eliminación de Ambigüedades")
@@ -93,7 +93,7 @@
 
     .row.mt-4
       .col-lg(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Diseño de componentes y productos")
             p los ingenieros y diseñadores utilizan el dibujo técnico para detallar cada componente de un producto, especificando materiales, dimensiones y acabados. Esto permite que cada pieza encaje perfectamente en el ensamblaje final.
           .row.col-xl-11.m-auto(titulo="Planificación de fabricación")
@@ -174,7 +174,7 @@
         figure
           img(src="@/assets/curso/tema3/8.png")
       .col-lg(data-aos="fade-left")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Estilo de letras ")
             p En el dibujo técnico, se emplean generalmente letras en mayúsculas, de trazo uniforme y claro. La estandarización en el tamaño y el estilo facilita la lectura del dibujo por diferentes personas.
           .row.col-xl-11.m-auto(titulo="Altura y espaciado")
@@ -403,7 +403,7 @@
 
     .cont_1_1.mt-5.pt-4.pb-4.pb-xl-5.pt-xl-5
       .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4
-        SlyderA(tipo="b")
+        CarouselRED(tipo="b")
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               p.fw-bold Vista Isométrica
@@ -435,7 +435,7 @@
 
     .row.mt-4
       .col-lg(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Ejercicio 1: identificación de vistas en un plano simple")
             p Dado un plano técnico de una pieza simple (por ejemplo, un cubo con perforaciones), identificar y nombrar cada una de las vistas (frontal, lateral, y superior).
           .row.col-xl-11.m-auto(titulo="Ejercicio 2: interpretación de una vista isométrica y sus vistas ortogonales")
@@ -469,7 +469,7 @@
           img(src="@/assets/curso/tema3/20.png")
       .col-lg(data-aos="fade-left")
         p Elementos Básicos de la Interpretación de Formas:
-        AcordionA(tipo="a" clase-tarjeta="tarjeta")
+        AcordionRED(tipo="a" clase-tarjeta="tarjeta")
           .row.col-xl-11.m-auto(titulo="Vistas")
             p Identificar y relacionar las diferentes vistas (frontal, lateral y superior) para obtener una comprensión completa de la forma.
           .row.col-xl-11.m-auto(titulo="Líneas y Contornos")
@@ -568,13 +568,13 @@
 
 <script>
 import TabsC from '../bootstrap/TabsC.vue'
-import SlyderA from '../bootstrap/SlyderA.vue'
-import AcordionA from '../bootstrap/AcordionA.vue'
+import CarouselRED from '../bootstrap/CarouselRED.vue'
+import AcordionRED from '../bootstrap/AcordionRED.vue'
 export default {
   name: 'Tema3',
   components: {
-    AcordionA,
-    SlyderA,
+    AcordionRED,
+    CarouselRED,
     TabsC,
   },
   data: () => ({
