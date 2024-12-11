@@ -5,13 +5,21 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Electrónica digital y sistemas embebidos	
+
+
+
+      
 
 </template>
 
 <script>
+import AcordionA from '../bootstrap/AcordionA.vue'
 export default {
   name: 'Tema2',
+  components: {
+    AcordionA,
+  },
   data: () => ({
     // variables de vue
   }),
